@@ -1,0 +1,47 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "author": "Mehmet Alp Albayraktaroglu",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-react": "^6.11.1",
+    "babel-register": "^6.9.0",
+    "cross-env": "^5.2.0",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.0.0",
+    "react-router-addons-controlled": "0.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^5.0.0-alpha.4",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-form": "^7.4.2",
+    "redux-logger": "^3.0.6",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0",
+    "webpack": "^4.19.1",
+    "webpack-dev-middleware": "^3.3.0",
+    "webpack-dev-server": "^3.1.8",
+    "webpack-hot-middleware": "^2.11.0"
+  },
+  "devDependencies": {
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-react-transform": "^3.0.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "html-webpack-plugin": "^3.2.0",
+    "react-transform-hmr": "^1.0.4",
+    "webpack-cli": "^3.1.0"
+  }
+}
